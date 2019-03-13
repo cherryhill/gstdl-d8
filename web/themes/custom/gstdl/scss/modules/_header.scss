@@ -1,0 +1,87 @@
+#navbar {
+ clear:both;
+}
+
+.navbar-brand {
+ display: none;
+}
+.header-warp {
+    background: url(http://gstdl.saaranga.in/sites/gstdl.saaranga.in/files/inline-images/desktop-hd-header%402x_1.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+}
+.headerwrap {
+  //background: rgba(120, 24, 5, 1.0);
+
+.region-headertop img {
+  width: 70px;
+}
+
+.region-headerright img {
+  width: 58%;
+  float: right;
+ } 
+}
+
+#block-socialiconsheader {
+ padding-top: 62px;
+ text-align: right;
+}
+
+#block-socialiconsheader a { 
+ width: 25px;
+ height: 25px;
+ text-align: center;
+ line-height: 21px;
+ padding: 0px 0px 0px 0px;
+ border-radius: 50%;
+ font-size: 15px;
+ margin-left: 5px;
+ border: 3px solid #ffffff;
+ transition: all 0.3s linear 0s;
+ display: inline-block;
+ background: #fff;
+ color: #781805;
+}
+
+#block-slogan {
+ //margin-left: 14%;
+ //margin-top: 25px;
+ color: $white;
+ float: left;
+ padding: 13px 0px 21px 20px;
+ h1 {
+  font-size: 22px;
+  margin-bottom: 0px;
+ }
+ h2 {
+  font-size: 22px;
+  margin-top: 3px;
+  color: #fff;
+ }
+ h3 {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #fff;
+ }
+}
+
+#block-slogan p_ {
+font-size: 22.0px;
+color: rgba(255,255,255,1.0);
+text-align: justify;
+letter-spacing: .85px;
+line-height: 25.0px;
+}
+
+.navbar-btn {
+ background-color: $yellow;
+ //margin-top: -12px;
+ width: 100px;
+ transform: rotate(0);
+ margin-left: -57px;
+ text-align: center;
+ margin-top: 27px;
+}

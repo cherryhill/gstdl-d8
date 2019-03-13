@@ -1,0 +1,45 @@
+.footer-wrap {
+  background-color: $yellow;
+  clear: both;
+
+.nav > li > a:hover, .nav > li > a:focus {
+   text-decoration: none;
+   background: none !important;
+}
+
+.nav > li > a { 
+   color: $black;
+   padding: 6px 0px;
+  }
+}
+
+.footer {
+ //width: 75%;
+ border-top: none;
+}
+
+#block-center, #block-newsletter, #block-teachings {
+  width: 33.33%;
+  float: left;
+}
+
+.footer h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: $black;
+  border-bottom: 1px solid $black;
+  width: 75%;
+  line-height: 50px;
+}
+
+#block-copyrightblock {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid $black;
+
+  .field--name-body {
+    margin-top: 18px;
+ } 
+}

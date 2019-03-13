@@ -1,0 +1,49 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+//Base
+@import 'base/colors';
+@import 'base/mixins';
+@import 'base/fonts';
+@import 'base/variables';
+
+// Custom Styles
+@import 'modules/header';
+@import 'modules/menu';
+@import 'modules/banner';
+@import 'modules/footer';
+@import 'modules/promo';
+//@import 'modules/promosecond';
+//@import 'modules/promothird';
+@import 'modules/pages';
+//@import 'modules/center';
+
+// Layouts
+@import 'layouts/mob';
+@import 'layouts/tab';
+@import 'layouts/desk';
+
+
+body {
+ margin-top: 0px;
+ background: #781805;
+ font-family: roboto, sans-serif;
+}
+.headerwrap::after {
+ position: absolute;
+ content: '';
+ width: 100px;
+ background: #fbbf07;
+ margin-left: -42px;
+ top: 0px;
+ bottom: 0px;
+ height: 100%;
+ z-index: -1;
+ display: block !important;
+}

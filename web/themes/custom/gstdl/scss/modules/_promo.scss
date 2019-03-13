@@ -1,0 +1,71 @@
+.row-promofirst {
+ padding-top: 90px;
+}
+.region-promo-second .views-field-field-image {
+ float: left !important;
+ padding: 40px 0px 40px 40px !important;
+}
+.region-promo-first,
+.region-promo-second,
+.region-promo-third {
+ background: #fff;
+ border-radius: 5px;
+ margin-bottom: 90px;
+ .views-field-nothing {
+  padding: 40px;
+ }
+ .views-field-title  {
+   font-family: roboto, sans-serif;
+   font-size: 20px;
+   text-align: left;
+   letter-spacing: 1.0px;
+   line-height: 25.0px;
+   padding-bottom: 15px;
+   margin-bottom: 15px;
+   font-weight: bold;
+   position: relative;
+   background: url(/sites/gstdl.saaranga.in/files/inline-images/reddline.png);
+   background-repeat: no-repeat;
+   background-position: bottom left;
+ }
+ ._views-field-title::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: red; 
+ }
+  .views-field-title a {
+    color: #000;
+ }
+ 
+ .views-field-field-image {
+  float: right;
+  position: relative;
+  margin-top: -80px;
+  padding: 40px 40px 40px 0px;
+ }
+ 
+ .views-field-body {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(80,80,80,1.0);
+  text-align: justify;
+  letter-spacing: 1.0px;
+  line-height: 22.0px;
+  padding-bottom: 30px;
+ }
+ .views-field-view-node a {
+  font-size: 14.0px;
+  color: rgba(120,24,5,1.0);
+  text-align: justify;
+  letter-spacing: 1.0px;
+  line-height: 16.0px;
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+}

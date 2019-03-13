@@ -1,0 +1,68 @@
+h2, h3, h4, h5, h6 {
+ color: #781805;
+}
+//Inner pages //
+.path-frontpage .region.region-content {
+ padding: 0px !important;
+ margin-top: 0px !important;
+}
+.region.region-content {
+    background: #fff;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 5px;
+ .page-header {
+  position: relative;
+  background: url(/sites/gstdl.saaranga.in/files/inline-images/reddline.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+ }
+}
+
+.page-node-type-page {
+ .region-content h1 {
+   display: none;
+}
+.content {
+   background: #fff;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+
+.field--name-body {
+   padding: 20px;
+ }
+}
+.row-map {
+  iframe,
+  .mapouter,
+  .gmap_canvas {
+   width: 100% !important;
+  }
+}
+
+.path-calendar {
+ #block-calendar {
+   background: #fff;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 40px;
+} 
+} 
+
+.path-calendar { 
+.view-header h3 {
+ text-align: center;
+ //color: #fff;
+}
+}
+
+.page-header { 
+ border: none !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+ background: none;
+}

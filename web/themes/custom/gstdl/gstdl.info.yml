@@ -1,0 +1,32 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'GSTDL'
+description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  headertop: 'Headertop'
+  headerright: 'Headerright'
+  navigation: 'Navigation'
+  searchb: 'Search Icon for Mobile'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  banner: 'Banner'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  promo_first: 'Promo First'
+  promo_second: 'Promo Second'
+  promo_third: 'Promo Third'
+  map: 'Map'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - gstdl/framework
