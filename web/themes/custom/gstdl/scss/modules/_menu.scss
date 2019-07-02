@@ -33,7 +33,13 @@
  margin-left: 11%;
 }
 
+.block-superfishmain {
+  float: left;
+  display: block;
+}
 #superfish-main {
+  line-height: 1;
+  padding-top: 5px;
   li.menuparent {
     ul {
       background: #1e375d;
