@@ -33,6 +33,14 @@
  margin-left: 11%;
 }
 
+#superfish-main {
+  li.menuparent {
+    ul {
+      background: #1e375d;
+    }
+  }
+}
+
 #block-searchbutton {
  float: right;
  width: 335px;
@@ -53,7 +61,7 @@
  position: absolute;
 }
 
-#block-donate { 
+#block-donate {
 .help a {
  background: #FBBF07;
  padding: 16px 30px;

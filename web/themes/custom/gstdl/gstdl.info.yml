@@ -6,6 +6,9 @@ name: 'GSTDL'
 description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
 package: 'Bootstrap'
 
+libraries:
+ - gtsdl/framework
+
 regions:
   headertop: 'Headertop'
   headerright: 'Headerright'

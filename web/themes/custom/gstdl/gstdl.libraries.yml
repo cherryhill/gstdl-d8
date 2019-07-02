@@ -2,6 +2,8 @@ framework:
   css:
     theme:
       stylesheets/style.css: {}
+    base:
+      css/style.css: {}
   js:
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
     bootstrap/assets/javascripts/bootstrap/alert.js: {}
